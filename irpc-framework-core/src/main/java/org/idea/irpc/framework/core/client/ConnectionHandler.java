@@ -135,6 +135,7 @@ public class ConnectionHandler {
         Selector selector = new Selector();
         selector.setProviderServiceName(providerServiceName);
         selector.setChannelFutureWrappers(channelFutureWrappers);
+        // 选择 server
         ChannelFuture channelFuture = IROUTER.select(selector).getChannelFuture();
         return channelFuture;
     }
