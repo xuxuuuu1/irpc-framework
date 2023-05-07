@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="irpc-framework-pay-provider" />
+        <module name="irpc-framework-common-consumer" />
+        <module name="irpc-framework-core" />
+        <module name="irpc-framework-spring-starter" />
+        <module name="irpc-framework-good-provider" />
+        <module name="irpc-framework-user-provider" />
+        <module name="irpc-framework-interface" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
